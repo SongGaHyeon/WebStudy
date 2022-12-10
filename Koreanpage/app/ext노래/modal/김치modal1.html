@@ -63,18 +63,15 @@
       font-family: Roboto, "Helvetica Neue", sans-serif;
     }
 
-    p,
     h4 {
       margin-top: 40px;
       font-family: 'LotteMartHappy';
-      color: palevioletred;
       margin-top: 40px;
       font-size: 25px;
     }
 
     h2 {
       margin-top: 40px;
-      color: palevioletred;
       font-family: 'LotteMartHappy';
       text-align: center;
       margin-top: 40px;
@@ -126,131 +123,25 @@
       margin: auto;
       text-align: center;
     }
-
-    #userEmail,
-    #userName,
-    #userMessage {
-      margin-top: 40px;
-      font-family: 'LotteMartHappy';
-      text-align: center;
-      margin-top: 40px;
-      font-size: 5px;
-    }
-
-    label {
-      font-family: 'LotteMartHappy';
-      font-size: 17px;
-      color: #b2876f;
-    }
-
-    .btn-send {
-
-      display: inline-block;
-      padding: 1em 2em;
-      border-radius: 0;
-      color: #b2876f;
-      margin-top: 2rem;
-      font-weight: bold;
-      font-size: 0.678rem;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-      text-decoration: none;
-      background: linear-gradient(to right, rgba(#b2876f, 0) 25%, rgba(#b2876f, .8) 75%);
-      background-position: 1% 50%;
-      background-size: 400% 300%;
-      border: 1px solid #b2876f;
-
-    }
   </style>
-
-
 </head>
 
-<br>
-
 <body>
-  <mat-toolbar color="none">
-    <span class="title-center"><a href="/Koreanpage/index.html">
-        <img src="Koreanpage/assets/piemain.gif" style="width: 200px;">
-      </a></span>
-  </mat-toolbar>
-
-  <div style="text-align: center; margin-top: 15px;">
-
-    <div style="width: 70%; display: inline-flex; ">
-      <div class="menu-item">
-        <a href="/Koreanpage/app/aboutsite.html">ABOUT SITE</a>
-      </div>
-
-      <div class="menu-item">
-        <a href="/Koreanpage/app/watchnews.html">About Korean culture</a>
-      </div>
-      <div class="menu-item">
-        <a href="/Koreanpage/app/picinkorea.html">PIC IN KOREA</a>
-      </div>
-      <div class="menu-item">
-        <a href="/Koreanpage/app/contact.html">Contact</a>
-      </div>
-    </div>
-  </div>
-  <br></br>
-
-
   <div class="Content">
     <br>
-    <h4 style="text-align:start; padding-left: 30px;"> 👉 Get in touch</h4>
+    <h3>PLAY MUSIC</h3>
+    <br>
+    <audio autoplay controls>
+      <source src="/Koreanpage/assets/music/illusion.mp3" type="audio/mp3">
 
-
-    <section class="email-me">
-      <h2 class="title-section">Email Me!</h2>
-      <form class="gform"
-        action="https://script.google.com/macros/s/AKfycbzkUzkhnlBEEv4PlE8GVg0EUXzW9GgGqLl1escUzzEsMeLuknpIlkfnd3D-TBgTHS4rVg/exec"
-        method="POST" data-email="gahyunsong@hufs.ac.kr">
-        <fieldset>
-          <div class="box-input">
-            <br>
-            <label for="userName">Name</label>
-            <input type="text" id="userName" name="name" placeholder="Korean-pie" required>
-          </div>
-          <div class="box-input">
-            <br>
-
-            <label for="userEmail">Email Address</label>
-            <input type="email" id="userEmail" name="email" placeholder="user@naver.com" required>
-          </div>
-          <div class="box-input">
-            <br>
-            <label for="userMessage">Message</label>
-            <textarea name="message" id="userMessage" required></textarea>
-          </div>
-          <div class="box-input">
-            <br><br>
-            <button type="submit" class="btn-send">SEND EMAIL</button>
-            <div style="display:none" class="thankyou_message">
-              <!-- You can customize the thankyou message by editing the code below -->
-              <p>감사합니다! 확인까지 조금만 기다려주세요 :) 🤗</p>
-              </h2>
-
-            </div>
-            <br><br>
-          </div>
-        </fieldset>
-      </form>
-
-  </div>
-  <script data-cfasync="false" type="text/javascript" src="/Koreanpage/app/form-submission-handler.js"></script>
-
-  </section>
-
-
+    </audio>
+    <h2>aespa-illusion</h2>
+    <br><br>
 
   </div>
 
-
-
-  <br><br><br>
   <div class="Footer">
-    <h2 style="color:black">Made by SongGaHyeon : Copyright 2022. SongGaHyeon All rights reserved. <br>
+    <h2>Made by SongGaHyeon : Copyright 2022. SongGaHyeon All rights reserved. <br>
       Wanna Know more about me?<br>
       Connect to my Github or Tistory ! <br>
     </h2>
@@ -265,11 +156,6 @@
     </div>
 
   </div>
-  <!-- <br><br> -->
-
-
-
-
 </body>
 
 </html>

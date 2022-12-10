@@ -78,6 +78,14 @@
       font-size: 5px;
     }
 
+    h3 {
+      margin-top: 40px;
+      font-family: 'LotteMartHappy';
+      text-align: center;
+      margin-top: 40px;
+      font-size: 18px;
+    }
+
 
 
     mat-toolbar {
@@ -123,6 +131,22 @@
       margin: auto;
       text-align: center;
     }
+
+    #about {
+      background-color: blanchedalmond;
+      text-align: center;
+      margin: auto;
+      width: auto;
+      line-height: 2em;
+
+
+    }
+
+    span {
+      color: darkcyan;
+
+
+    }
   </style>
 
 
@@ -144,13 +168,13 @@
     </div>
 
     <div class="menu-item">
-      <a href="/Koreanpage/app/watchnews.html">WATCH NEWS IN KOREA</a>
+      <a href="/Koreanpage/app/watchnews.html">About Korean culture</a>
     </div>
     <div class="menu-item">
       <a href="/Koreanpage/app/picinkorea.html">PIC IN KOREA</a>
     </div>
     <div class="menu-item">
-      <a href="/Koreanpage/app/contact.html">CONTACT US</a>
+      <a href="/Koreanpage/app/contact.html">CONTACT</a>
     </div>
   </div>
 </div>
@@ -159,42 +183,57 @@
 
 <div class="Content">
   <br><br>
-  <h4> 당신의 취향을 저격하는 파이를 골라보세요 </h4>
+  <h4><span>'Korean PIE'</span> 어떤 사이트인가요? </h4>
   <br>
   <div style="display: inline-flex;">
 
-
-    <a href="/Koreanpage/app/김치/김치.html">
-      <img src="/Koreanpage/assets/김치파이.png" style="max-width:100%; height:auto;" (click)="img_click(1)"
-        onmouseover="this.src='/Koreanpage/assets/김치파이circle.png'" onmouseout="this.src='/Koreanpage/assets/김치파이.png'">
-    </a>
+    <img src="/Koreanpage/assets/main.png" style="max-width:30%; height:auto;">
 
 
 
-    <a href="/Koreanpage/app/비빔밥/비빔밥.html ">
-      <img src="/Koreanpage/assets/비빔밥파이.png" style="max-width:100%; height:auto;" (click)="img_click(1)"
-        onmouseover="this.src='/Koreanpage/assets/비빔밥파이circle.png'"
-        onmouseout="this.src='/Koreanpage/assets/비빔밥파이.png'">
-    </a>
 
-
-    <!-- <div class="item"> -->
-    <a href="/Koreanpage/app/삼겹살/삼겹살.html">
-      <img src="/Koreanpage/assets/삼겹살파이.png" style="max-width:100%; height:auto;" (click)="img_click(1)"
-        onmouseover="this.src='/Koreanpage/assets/삼겹살파이circle.png'"
-        onmouseout="this.src='/Koreanpage/assets/삼겹살파이.png'">
-    </a>
-    <!-- </div> -->
-
-    <!-- <div class="item"> -->
-    <a href="/Koreanpage/app/송편/송편.html">
-      <img src="/Koreanpage/assets/송편파이.png" style="max-width:100%; height:auto;" (click)="img_click(1)"
-        onmouseover="this.src='/Koreanpage/assets/송편파이circle.png'" onmouseout="this.src='/Koreanpage/assets/송편파이.png'">
-    </a>
-    <!-- </div> -->
 
 
   </div>
+
+  <div id="about">
+    <br>
+    <h3> 메인페이지에서 사용자 분에게 끌리는 파이를 골라주세요!<br>
+      파이는 총 4개 <span>'김치 파이, 비빔밥 파이, 삼겹살 파이, 송편 파이'</span> 입니다.
+      <br>
+      음악, 영화, 드라마 같은 대중문화부터 패션,음식 등등 대한민국의 문화가 많은 나라들에서 각광받고 있습니다.<br><br>
+      <span>2010~2020년대 초반</span>을 기분으로 10~20대의 젊은 층에서 전 세계적인 한류의 유행과 폭발적인 영향력의 증가는 유튜브가 만들어진<br>
+      <span>2000년대 이후 </span>늘어나기 시작했어요. 1990년대 초반에 발달된 인터넷 문화와 깊은 연관성이 있는 거죠!<br>
+      <br><br>
+      이렇게 한류의 인기가 증가하는 반면, 오히려 많아진 데이터들 사이에서 올바른 데이터를 검색하는 것이 어려워진 것 같아요. <br>
+      <span>한류를 처음 접하는 외국인들, 또는 한류에 관심을 가지게 된 사람들이 가볍게 한류를 접할 수 있게 하고자 이 사이트를 만들었어요.</span>
+      <br><br>
+      HOW TO USE ! <br> 함께 사이트를 살펴볼까요?
+      <br><br><br>
+
+      <span>CHOOSING PIE</span>
+      <a>
+        <img src="/Koreanpage/assets/파이고르기.jpg" style="max-width:70%; height:auto;">
+
+        <img src="/Koreanpage/assets/파이고르기2.jpg" style="max-width:70%; height:auto;">
+      </a>
+
+      <br><br><br>
+
+      <span>MENU: PIC IN KOREA</span>
+      <a>
+        <img src="/Koreanpage/assets/카메라.jpg" style="max-width:70%; height:auto;">
+
+      </a>
+      <br><br><br>
+
+
+
+    </h3>
+
+  </div>
+
+
   <br><br><br>
   <div class="Footer">
     <h2>Made by SongGaHyeon : Copyright 2022. SongGaHyeon All rights reserved. <br>
